@@ -1,9 +1,6 @@
 import { Given, When, and, Then } from "cypress-cucumber-preprocessor/steps";
-//import { HomePage } from "./pages/LTIM_HomePage";
 import { HomePage } from "../pages/LTIM_HomePage";
-//import { lifeSciences } from "../pages/LTIM_LifeSciencesPage";
 import { lifeSciences } from "../pages/LTIM_LifeSciencesPage";
-//import { searchForNordea } from "./pages/LTIM_Search";
 import { searchForNordea } from "../pages/LTIM_Search";
 
 const home_page = new HomePage();
